@@ -1,16 +1,16 @@
 /* Definindo o estilo para o corpo da página */
 body {
     font-family: Arial, sans-serif;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     color: #333;
   }
   
   /* Cabeçalho */
   header {
-    background-color: #fde400;
+    background-color:rgb(255, 255, 255);
     padding: 10px;
-    color: white;
+    color: blank;
     text-align: center;
     border-radius: 8px;
   }
