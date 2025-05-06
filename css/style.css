@@ -9,7 +9,7 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #027771; /* Mantendo sua cor */
+  background-color: #027771; /* Cor do cabeçalho */
   padding: 20px;
   color: white;
   text-align: center;
@@ -54,6 +54,56 @@ main {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+h2 {
+  font-size: 1.8rem;
+  color: #027771;
+  margin-bottom: 20px;
+}
+
+/* Estilo do formulário */
+.form-cadastro {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-group input:focus {
+  border-color: #027771;
+  outline: none;
+}
+
+.btn-cadastrar {
+  background-color: #027771;
+  color: white;
+  padding: 12px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-cadastrar:hover {
+  background-color: #025c5c;
+}
+
 /* Rodapé */
 footer {
   text-align: center;
@@ -63,46 +113,4 @@ footer {
   color: #555;
   margin-top: 40px;
   border-top: 1px solid #ccc;
-}
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-form label {
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #444;
-}
-
-form input {
-  padding: 10px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  width: 100%;
-  box-sizing: border-box;
-  transition: border-color 0.3s;
-}
-
-form input:focus {
-  border-color: #027771;
-  outline: none;
-}
-
-button[type="submit"] {
-  background-color: #027771;
-  color: white;
-  border: none;
-  padding: 12px;
-  font-size: 1rem;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-button[type="submit"]:hover {
-  background-color: #025e5a;
 }
