@@ -19,11 +19,20 @@
   <main>
     <h2>Cadastro de Paciente</h2>
     <form>
-      <label>Nome completo:<br><input type="text" name="nome"></label><br><br>
-      <label>Data de nascimento:<br><input type="date" name="data_nascimento"></label><br><br>
-      <label>Número do prontuário:<br><input type="text" name="prontuario"></label><br><br>
-      <button type="submit">Cadastrar</button>
-    </form>
+        <label>Nome completo:<br>
+          <input type="text" name="nome" required placeholder="Ex: Maria Silva" autocomplete="name">
+        </label><br><br>
+      
+        <label>Data de nascimento:<br>
+          <input type="date" name="data_nascimento" required>
+        </label><br><br>
+      
+        <label>Número do prontuário:<br>
+          <input type="text" name="prontuario" required placeholder="Ex: AA00" autocomplete="off">
+        </label><br><br>
+      
+        <button type="submit">Cadastrar</button>
+      </form>
   </main>
 </body>
 </html>
