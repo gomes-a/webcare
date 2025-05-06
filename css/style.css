@@ -114,3 +114,6 @@ footer {
   margin-top: 40px;
   border-top: 1px solid #ccc;
 }
+main {
+  border: 5px dashed red;
+}
